@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libras Brasil</title>
+    <script src="https://kit.fontawesome.com/1935d064dd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+    <link  rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    
+</head>
+
+<body>
+    <section>
+        <div class="swiper">
+            <div class="swiper-slide">
+                <div class="container">
+                    <div class="quiz-box">
+                        <div id="quiz">
+                            
+                            
+                            <img  id="imgQuiz" src="" alt="">
+                            <p id="question"></p>
+            
+                            <div class="buttons">
+                                <button class="btn" id="btn0">A. <span class="spanQuestion" id="choice0"></span></button>
+                                <button class="btn" id="btn1">B. <span class="spanQuestion" id="choice1"></span></button>
+                                <button class="btn" id="btn2">C. <span class="spanQuestion" id="choice2"></span></button>
+                                <button class="btn" id="btn3">D. <span class="spanQuestion" id="choice3"></span></button>
+                            </div>
+            
+                            <hr>
+                            
+                        </div>
+                    </div>
+                </div>
+            
+                <script src="avancado.js"></script>
+              </div>
+          </div>
+          
+    </section>
+    <div class="boxVoltar">
+        <button class="btnVoltar"><a href="instructions.html">Voltar</a></button>  
+    </div>
+          
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            speed: 400,
+            spaceBetween: 10,
+            slidesPerView: 1,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+                clickable: true
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            }
+        });
+    </script>
+</body>
+
+</html>

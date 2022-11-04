@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libras Brasil</title>
+    <script src="https://kit.fontawesome.com/1935d064dd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+    <link  rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    
+</head>
+
+<body>
+    <section>
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <div class="librasLivre"><h1> MESES DO ANO </h1></div>
+                    <img class= "imgTutorial" src="./src/gif-quiz-tutorial/intermediario/meses/janeiro-legendado.gif" alt="Janeiro">
+                    <img class= "imgTutorial" src="./src/gif-quiz-tutorial/intermediario/meses/Fevereiro-legendado.gif" alt="Fevereiro">
+                    <img class= "imgTutorial" src="./src/gif-quiz-tutorial/intermediario/meses/Março-legendado.gif" alt="Março">
+                    <img class= "imgTutorial" src="./src/gif-quiz-tutorial/intermediario/meses/Abril-legendado.gif" alt="Abril">
+                    <img class= "imgTutorial" src="./src/gif-quiz-tutorial/intermediario/meses/Maio-legendado.gif" alt="Maio">
+                    <img class= "imgTutorial" src="./src/gif-quiz-tutorial/intermediario/meses/junho-legendado-1.gif" alt="Junho">
+                    <img class= "imgTutorial" src="./src/gif-quiz-tutorial/intermediario/meses/julho-legendado.gif" alt="Julho">
+                    <img class= "imgTutorial" src="./src/gif-quiz-tutorial/intermediario/meses/Agosto-legendado.gif" alt="Agosto">
+                    <img class= "imgTutorial" src="./src/gif-quiz-tutorial/intermediario/meses/Setembro-legendado.gif" alt="Setembro">
+                    <img class= "imgTutorial" src="./src/gif-quiz-tutorial/intermediario/meses/Outubro-legendado.gif" alt="Outubro">
+                    <img class= "imgTutorial" src="./src/gif-quiz-tutorial/intermediario/meses/Novembro-legendado.gif" alt="Novembro">
+                    <img class= "imgTutorial" src="./src/gif-quiz-tutorial/intermediario/meses/Dezembro-legendado.gif" alt="Dezembro">
+              </div>
+              <div class="swiper-slide">
+                <div class="librasLivre"><h1>EXTRAS</h1></div>
+                    <img class= "imgTutorial" src="./src/gif-quiz-tutorial/intermediario/extra/ano passado.gif" alt="ano passado">
+                    <img class= "imgTutorial" src="./src/gif-quiz-tutorial/intermediario/extra/ano que vem.gif" alt="ano que vem">
+                    <img class= "imgTutorial" src="./src/gif-quiz-tutorial/intermediario/extra/ano.gif" alt="ano">
+                    <img class= "imgTutorial" src="./src/gif-quiz-tutorial/intermediario/extra/fazer.gif" alt="fazer">
+                    <img class= "imgTutorial" src="./src/gif-quiz-tutorial/intermediario/extra/morrer.gif" alt="morrer">
+                    <img class= "imgTutorial" src="./src/gif-quiz-tutorial/intermediario/extra/nascer.gif" alt="nascer">
+                    <img class= "imgTutorial" src="./src/gif-quiz-tutorial/intermediario/extra/por que.gif" alt="por que">
+
+                    
+              </div>
+              
+              
+              <div class="swiper-slide">
+                <div class="container">
+                    <div class="quiz-box">
+                        <div id="quiz">
+                            
+                            
+                            <img  id="imgQuiz" src="" alt="">
+                            <p id="question"></p>
+            
+                            <div class="buttons">
+                                <button class="btn" id="btn0">A. <span class="spanQuestion" id="choice0"></span></button>
+                                <button class="btn" id="btn1">B. <span class="spanQuestion" id="choice1"></span></button>
+                                <button class="btn" id="btn2">C. <span class="spanQuestion" id="choice2"></span></button>
+                                <button class="btn" id="btn3">D. <span class="spanQuestion" id="choice3"></span></button>
+                            </div>
+            
+                            <hr>
+                            
+                        </div>
+                    </div>
+                </div>
+            
+                <script src="app3.js"></script>
+              </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+              
+          </div>
+          
+    </section>
+    <div class="boxVoltar">
+        <button class="btnVoltar"><a href="instructions.html">Voltar</a></button>  
+    </div>
+          
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            speed: 400,
+            spaceBetween: 10,
+            slidesPerView: 1,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+                clickable: true
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            }
+        });
+    </script>
+</body>
+
+</html>

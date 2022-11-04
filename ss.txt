@@ -1,0 +1,176 @@
+INICIANTE - alfabeto
+Cumprimentos - ok
+verbos - ok
+Família - ok
+Adjetivos - ok
+Números
+Dias da semana - ok
+*Nesse nível será mostrado o básico de LIBRAS. No final haverá um quiz sobre os módulos.
+
+
+
+
+
+
+
+
+
+
+
+INTERMEDIÁRIO - Meses do ano, módulos presente, passado e futuro.
+
+*Nesse nível será mostrado a formulação de frases usando o conhecimento do nível iniciante. No final haverá um quiz.
+
+
+
+
+
+
+
+
+
+
+
+AVANÇADO - Nesse nível haverá apenas quiz, usando os conhecimentos dos níveis anteriores
+
+
+<div class="container--librasIniciante">
+            <img class= "imgTutorial" src="./src/gif-quiz-tutorial/adjetivos/Feliz-1.gif" alt="Feliz">
+            <img class= "imgTutorial" src="./src/gif-quiz-tutorial/adjetivos/Calor-1.gif" alt="Calor">
+            <img class= "imgTutorial" src="./src/gif-quiz-tutorial/adjetivos/Forte-1.gif" alt="Forte">
+            <img class= "imgTutorial" src="./src/gif-quiz-tutorial/cumprimentos/Bom-dia.gif" alt="Bom dia">
+            <img class= "imgTutorial" src="./src/gif-quiz-tutorial/cumprimentos/Obrigado.gif" alt="Obrigado">
+            <img class= "imgTutorial" src="./src/gif-quiz-tutorial/cumprimentos/oi.gif" alt="Oi">
+            <img class= "imgTutorial" src="./src/gif-quiz-tutorial/familia/filh@.gif" alt="Filho">
+            <img class= "imgTutorial" src="./src/gif-quiz-tutorial/familia/casad@.gif" alt="Casad@">
+            <img class= "imgTutorial" src="./src/gif-quiz-tutorial/familia/irmãos-1.gif" alt="Irmão">
+            <img class= "imgTutorial" src="./src/gif-quiz-tutorial/meios de transporte/Ônibus-1.gif" alt="Onibus">
+            <img class= "imgTutorial" src="./src/gif-quiz-tutorial/meios de transporte/Avião-1.gif" alt="Avião">
+            <img class= "imgTutorial" src="./src/gif-quiz-tutorial/meios de transporte/Moto-1.gif" alt="oto">
+
+        </div>
+
+
+
+
+
+
+        <div class="swiper-slide">
+                  <div class="librasLive"><h1>MESES DO ANO</h1></div>
+                    <img class= "imgTutorial" src="./src/gif-quiz-tutorial/intermediario/meses/janeiro-legendado.gif" alt="Janeiro">
+                    <img class= "imgTutorial" src="./src/gif-quiz-tutorial/intermediario/meses/Fevereiro-legendado.gif" alt="Fevereiro">
+                    <img class= "imgTutorial" src="./src/gif-quiz-tutorial/intermediario/meses/Março-legendado.gif" alt="Março">
+                    <img class= "imgTutorial" src="./src/gif-quiz-tutorial/intermediario/meses/Abril-legendado.gif" alt="Abril">
+                    <img class= "imgTutorial" src="./src/gif-quiz-tutorial/intermediario/meses/Maio-legendado.gif" alt="Maio">
+                    <img class= "imgTutorial" src="./src/gif-quiz-tutorial/intermediario/meses/junho-legendado-1.gif" alt="Junho">
+                    <img class= "imgTutorial" src="./src/gif-quiz-tutorial/intermediario/meses/julho-legendado.gif" alt="Julho">
+                    <img class= "imgTutorial" src="./src/gif-quiz-tutorial/intermediario/meses/Agosto-legendado.gif" alt="Agosto">
+                    <img class= "imgTutorial" src="./src/gif-quiz-tutorial/intermediario/meses/Setembro-legendado.gif" alt="Setembro">
+                    <img class= "imgTutorial" src="./src/gif-quiz-tutorial/intermediario/meses/Outubro-legendado.gif" alt="Outubro">
+                    <img class= "imgTutorial" src="./src/gif-quiz-tutorial/intermediario/meses/Novembro-legendado.gif" alt="Novembro">
+                    <img class= "imgTutorial" src="./src/gif-quiz-tutorial/intermediario/meses/Dezembro-legendado.gif" alt="Dezembro">
+                </div>
+                <div class="swiper-slide">
+                    <div class="librasLive"><h1>ESTAÇÕES</h1></div>
+                        <img class= "imgTutorial" src="./src/gif-quiz-tutorial/intermediario/estações/Inverno.gif" alt="Inverno">
+                        <img class= "imgTutorial" src="./src/gif-quiz-tutorial/intermediario/estações/Verão.gif" alt="Verão">
+                        <img class= "imgTutorial" src="./src/gif-quiz-tutorial/intermediario/estações/Outono.gif" alt="Outono">
+                        <img class= "imgTutorial" src="./src/gif-quiz-tutorial/intermediario/estações/Primavera.gif" alt="Primavera">
+                    </div>                
+                <div class="swiper-slide">
+                    <div class="librasLive"><h1>PROFISSÕES</h1></div>
+                    <img class= "imgTutorial" src="./src/gif-quiz-tutorial/intermediario/profissões/Administrador@-1.gif" alt="Inverno">
+                    <img class= "imgTutorial" src="./src/gif-quiz-tutorial/intermediario/profissões/Arquitet@-1.gif" alt="Verão">
+                    <img class= "imgTutorial" src="./src/gif-quiz-tutorial/intermediario/profissões/Assistente-social-1.gif" alt="Outono">
+                    <img class= "imgTutorial" src="./src/gif-quiz-tutorial/intermediario/profissões/Chefe-1.gif" alt="Primavera">
+                    <img class= "imgTutorial" src="./src/gif-quiz-tutorial/intermediario/profissões/Destista-1.gif" alt="Primavera">
+                    <img class= "imgTutorial" src="./src/gif-quiz-tutorial/intermediario/profissões/Diretor@-1.gif" alt="Primavera">
+                    <img class= "imgTutorial" src="./src/gif-quiz-tutorial/intermediario/profissões/Eletricista-1.gif" alt="Primavera">
+                    <img class= "imgTutorial" src="./src/gif-quiz-tutorial/intermediario/profissões/Faxineir@-1.gif" alt="Primavera">
+                    <img class= "imgTutorial" src="./src/gif-quiz-tutorial/intermediario/profissões/Engenheir@-1.gif" alt="Primavera">
+                    <img class= "imgTutorial" src="./src/gif-quiz-tutorial/intermediario/profissões/Professor@-1.gif" alt="Primavera">
+                    </div>
+                </div>
+
+ 15 na intermediaria e avançado e 25 iniciante?
+
+
+
+
+GABARITO
+Inciciante:
+01-calor
+02-feliz
+03-forte
+04-legal
+05-b noite
+06-b tarde
+07-b dia
+08-d nada
+09-obrigado
+10-casado
+11-familia
+12-filho
+13-irmaos
+14-amar
+15-desculpar
+16-entender
+17-falar
+18-saber
+19-segunda
+20-terça
+21-quarta
+22-quinta
+23-sexta
+24-sabado
+25-domingo
+
+334
+intermediario:
+01-inverno
+02-outono
+03-primavera
+04-verao
+05-adminstrador
+06-arquiteto
+07-assistente-social
+08-bombeiro
+09-chefe
+10-dentista
+11-diretor
+12-eletricista
+13-janeiro
+14-fevereiro
+15-março
+16-abril
+17-maio
+18-junho
+19-julho
+20-agosto
+21-setembro
+22-outubro
+23-novembro
+24-dezembro
+
+avançado:
+01-aviao
+02-barco
+03-bicicleta
+04-jetski
+05-metro
+06-moto
+07-onibus
+08-taxi
+09-trem
+10-oi
+11-ok
+12-prazer
+13-qual é o seu
+14-tchau
+15-eletricista
+16-enfermeiro
+17-engenheiro
+18-garçom
+19-professor
+
+Revisão e validação do cabeamento do ponto de rede PT08-012 no GGER, referente ao chamado Pai "RI418587 - Revisão de cabeamento de rede: Solicitamos revisão de cabeamento na GGER fora do horário de expediente, a internet fica intermitente (cai e retorna) durante vários momentos do dia ".

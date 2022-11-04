@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libras Brasil</title>
+    
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+    <link  rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    
+</head>
+
+<body>
+    <section>
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <div class="container--instrucao">
+                    <main>
+                        <h1>COMO FUNCIONA?</h1> <br>
+                        <p> Você escolherá um nível para o seu quiz. Dentre eles, estão os temas mostrados abaixo:</p><br><br>
+                        <p> <span>INICIANTE -</span> Cumprimentos, verbos, família, adjetivos, dias da semana. <br>
+                            *Nesse nível será mostrado o básico de LIBRAS. No final haverá um quiz sobre os módulos. <br><br><br>
+                            
+                            
+                            <span>INTERMEDIÁRIO -</span> Meses do ano, estações e profissões <br>
+                            
+                            *Nesse nível será mostrado palavras do dia-a-dia. No final haverá um quiz. <br><br><br>
+                            
+                            <span>AVANÇADO -</span> Nesse nível haverá apenas quiz, usando os conhecimentos dos níveis anteriores</p>
+                    </main>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="container--niveis">
+            
+                    <div class="boxNiveis">
+                        <div class="titulo2"><h1>Escolha o nível:</h1></div>            
+                    <button class="iniciante"> <a href="./iniciante.html">INICIANTE</a></button><br>
+                    <button class="intermediario"> <a href="./intermediario.html">INTERMEDIÁRIO</a></button><br>
+                    <button class="avancado"> <a href="./avancado.html">AVANÇADO</a></button><br>
+                    </div>
+                </div>
+              </div>
+              ...
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+          </div>
+    </section>
+        
+            
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            speed: 400,
+            spaceBetween: 10,
+            slidesPerView: 1,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+                clickable: true
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            }
+        });
+    </script>
+</body>
+
+</html>
