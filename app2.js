@@ -139,47 +139,43 @@ new Question(
         ["da minha mãe", "de suco de limão", "da minha avó", "de cachorro"], "da minha avó"
     ),
 new Question(
-        document.getElementById("imgQuiz").innerHTML = "<img src='images/iniciante/15.gif'> </br>  Qual a idade da minha mãe?",
-        ["50 anos", "60 anos", "15 anos", "36 anos"], "36 anos"
-    ),
-new Question(
-        document.getElementById("imgQuiz").innerHTML = "<img src='images/iniciante/16.gif'> </br>  Como eu estou hoje?",
+        document.getElementById("imgQuiz").innerHTML = "<img src='images/iniciante/15.gif'> </br>  Como eu estou hoje?",
         ["feliz", "com calor", "com medo", "séria"], "com medo"
     ),
 new Question(
-        document.getElementById("imgQuiz").innerHTML = "<img src='images/iniciante/17.gif'> </br>  O que o João é meu?",
+        document.getElementById("imgQuiz").innerHTML = "<img src='images/iniciante/16.gif'> </br>  O que o João é meu?",
         ["pai", "primo", "amigo", "namorado"], "namorado"
     ),
 new Question(
-        document.getElementById("imgQuiz").innerHTML = "<img src='images/iniciante/18.gif'> </br>  Qual verbo estou sinalizando?",
+        document.getElementById("imgQuiz").innerHTML = "<img src='images/iniciante/17.gif'> </br>  Qual verbo estou sinalizando?",
         ["andar", "pedalar", "saber", "desenhar"], "saber"
     ),
 new Question(
-        document.getElementById("imgQuiz").innerHTML = "<img src='images/iniciante/19.gif'> </br>  Eu tenho um canal em que rede social?",
+        document.getElementById("imgQuiz").innerHTML = "<img src='images/iniciante/18.gif'> </br>  Eu tenho um canal em que rede social?",
         ["whatsapp", "instagram", "youtube", "facebook"], "facebook"
     ),
 new Question(
-        document.getElementById("imgQuiz").innerHTML = "<img src='images/iniciante/20.gif'> </br>  O que eu comprei ontem?",
+        document.getElementById("imgQuiz").innerHTML = "<img src='images/iniciante/19.gif'> </br>  O que eu comprei ontem?",
         ["uma bicicleta", "um gato", "um cachorro", "um carro"], "um gato"
     ),
 new Question(
-        document.getElementById("imgQuiz").innerHTML = "<img src='images/iniciante/21.gif'> </br>  Quantos animais eu tenho dentro de casa?",
+        document.getElementById("imgQuiz").innerHTML = "<img src='images/iniciante/20.gif'> </br>  Quantos animais eu tenho dentro de casa?",
         ["15", "25", "9", "6"], "9"
     ),
 new Question(
-        document.getElementById("imgQuiz").innerHTML = "<img src='images/iniciante/22.gif'> </br>  Meu dia preferido?",
+        document.getElementById("imgQuiz").innerHTML = "<img src='images/iniciante/21.gif'> </br>  Meu dia preferido?",
         ["dias quentes", "terça-feira", "dias frios", "sexta-feita"], "dias frios"
     ),
 new Question(
-        document.getElementById("imgQuiz").innerHTML = "<img src='images/iniciante/23.gif'> </br>  A cor preferida da minha mãe é?",
+        document.getElementById("imgQuiz").innerHTML = "<img src='images/iniciante/22.gif'> </br>  A cor preferida da minha mãe é?",
         ["preto", "roxo", "vermelho", "amarelo"], "preto"
     ),
 new Question(
-        document.getElementById("imgQuiz").innerHTML = "<img src='images/iniciante/24.gif'> </br>  Qual minha cor preferida?",
+        document.getElementById("imgQuiz").innerHTML = "<img src='images/iniciante/23.gif'> </br>  Qual minha cor preferida?",
         ["azul", "verde", "rosa", "amarelo"], "amarelo"
     ),
 new Question(
-        document.getElementById("imgQuiz").innerHTML = "<img src='images/iniciante/25.gif'> </br>  Quando não estou com minha mãe eu fico com meu (minha)?",
+        document.getElementById("imgQuiz").innerHTML = "<img src='images/iniciante/24.gif'> </br>  Quando não estou com minha mãe eu fico com meu (minha)?",
         ["avó", "tia", "primo", "pai"], "primo"
     ),
 new Question(
